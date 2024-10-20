@@ -1,2 +1,20 @@
-
 /* Your CSS Code here. */
+.holder {
+	width: 200px;
+	height: 200px;
+	display: grid;
+	grid-template-columns: repeat(2, 100px);
+	grid-template-rows: repeat(2, 100px);
+}
+.holder > div:nth-child(1) {
+	background-color: red;
+}
+.holder > div:nth-child(2) {
+	background-color: yellow;
+}
+.holder > div:nth-child(3) {
+	background-color: blue;
+}
+.holder > div:nth-child(4) {
+	background-color: green;
+}
